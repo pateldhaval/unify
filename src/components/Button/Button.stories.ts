@@ -15,9 +15,3 @@ export const Default: Story = {
 		children: 'Button'
 	}
 };
-
-export const Test: Story = {
-	args: {
-		children: 'Button Test'
-	}
-};
