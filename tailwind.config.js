@@ -6,6 +6,7 @@ export default {
 	},
 	plugins: [],
 	corePlugins: {
-		preflight: false
+		// [Remove global resets]
+		// preflight: false
 	}
 };
