@@ -51,8 +51,11 @@
 		"postversion": "git push && git push --tags"
 	},
 	"dependencies": {
+		"class-variance-authority": "^0.6.0",
+		"clsx": "^1.2.1",
 		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
+		"react-dom": "^16.8.0 || 17.x || 18.x",
+		"tailwind-merge": "^1.13.0"
 	},
 	"devDependencies": {
 		"@storybook/addon-essentials": "^7.0.18",

@@ -4,14 +4,19 @@ import { Button } from './Button';
 
 const meta = {
 	component: Button,
-	tags: ['autodocs']
+	tags: ['autodocs'],
+	args: {
+		children: 'Button'
+	}
 } satisfies Meta<typeof Button>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
+export const Default: Story = {};
+
+export const Outline: Story = {
 	args: {
-		children: 'Button'
+		variant: 'outline'
 	}
 };
