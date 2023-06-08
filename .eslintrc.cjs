@@ -19,6 +19,7 @@ module.exports = {
 	rules: {
 		'react-refresh/only-export-components': 'warn',
 		'@typescript-eslint/no-var-requires': 0,
+		'no-undef': 0,
 		'@typescript-eslint/no-empty-interface': [
 			'error',
 			{
